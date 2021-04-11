@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+button{
+    background-color:rgb(27, 128, 168);
+    border-radius: 30%;
+    font-size: 30px;
+}
+.button-column {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    font-size: 30%;
+}
+.hide {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#formHide{
+    display: none;
+}
+
+#scoreboard{
+    display:none;
+}
+
+.question{
+    font-size: 30px;
+}

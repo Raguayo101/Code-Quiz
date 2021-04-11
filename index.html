@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel ="stylesheet">
+    <title>code quiz</title>
+</head>
+<body>  
+    <header>
+        <h1 class="time" style="text-align:center;"></h1>
+    <p class = "question" >Its quiz time! Press the start button to get it going!</p>
+    </header>
+
+    <section class = "hide">
+        <div class = "button-column">
+            <button id = "answer1">answer</button>
+            <button id = "answer2">answer</button>
+            <button id = "answer3">answer</button>
+            <button id = "answer4">all of the above</button>
+        </div>
+    </section>
+
+    <section class = "hidden">
+        <p id = "outPut">Correct!</p>
+    </section>
+
+    <section>
+        <button id="start-btn">START</button>
+    </section>
+
+    <section id = "score"></section>
+
+    <section id="scoreboard">
+        <p>Scores!</p>
+        <p>score: <span id = "saved-score"></span></p>
+        <p>Int: <span id = "saved-int"></span></p>
+    </section>
+
+    <form id = "formHide">
+        <input type="text" placeholder="enter your initials" id="saveInitials" >
+        <button type="submit" id ="sub-btn">Save your score! </button>
+    </form>
+
+  
+
+
+    <script src="script.js"></script>
+</body>
+</html>
